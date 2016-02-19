@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TestSuite>
+<TestCase id="TC_01">
+<Description>Verify Height and DOB of First Player (Jamie Vardy)</Description>
+<Height>5' 10"</Height>
+<BirthDate>1987-01-11</BirthDate>
+</TestCase>
+</TestSuite>
