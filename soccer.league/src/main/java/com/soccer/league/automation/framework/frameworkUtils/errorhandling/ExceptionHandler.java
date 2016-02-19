@@ -4,6 +4,10 @@ import org.openqa.selenium.WebDriver;
 
 public class ExceptionHandler extends Exception {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String customMessage = "";
 	private WebDriver driver = null;
 	private String message[];

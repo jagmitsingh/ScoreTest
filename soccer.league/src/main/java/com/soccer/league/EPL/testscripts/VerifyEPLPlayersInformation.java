@@ -11,7 +11,7 @@ import com.soccer.league.automation.framework.driver.DriverStart;
 import com.soccer.league.automation.framework.frameworkUtils.XMLParser.DomParser;
 
 
-public class VerifyPlayersInformation extends DriverStart {
+public class VerifyEPLPlayersInformation extends DriverStart {
 	
     Node player1;	
 	@Test
@@ -31,7 +31,8 @@ public class VerifyPlayersInformation extends DriverStart {
 		   //--------------------------------------------------------------------//	
 		   	
             ScoreHomePage scoreHomePage = new ScoreHomePage();
-		   	
+		  
+            
 		   //--------------------------------------------------------------------//
 		   //  Step-2: Navigate to Main Menu -> Trending -> EPLSoccer
 		   //--------------------------------------------------------------------//

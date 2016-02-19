@@ -49,7 +49,6 @@ public class DriverStart {
 	
 		// get the browser specific driver and load the application under test
 			
-		
 		driver = getWebDriver(seleniumHost, seleniumPort, browser);
 		wait = new WebDriverWait(driver, 30);
 		driver.get(webSite);
@@ -70,8 +69,7 @@ public class DriverStart {
 	
  public WebDriver getWebDriver(String seleniumHost, String seleniumPort, String browser) throws IOException {
 	 
-	    //System.out.println(browser);
-		switch (BrowserType.valueOf(browser)) {
+	   switch (BrowserType.valueOf(browser)) {
 				
 		case FIREFOX:
 			return new FirefoxDriver();

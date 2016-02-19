@@ -1,0 +1,103 @@
+TestSuite: Verify EPL Soccer Player's Information
+
+Test #1:
+Title: Verify the Photo, BirthPlace, Weight, Birthday and Shot for a EPL Player
+Test Steps
+1) Load the URL (http://www.thescore.com/)
+2) Navigate to Main Menu and click to Open it
+3) Navigate to Leaders Page, performing these actions (Trending->EPL Soccer->Leaders)
+4) Click on Leaders page to load the player's Goal page
+5) Click on any player e.g. R. Lukaku
+6) Verify the correct player's information shows up e.g. Photo, Birthplace, Weight, Birthday, Shots etc
+
+Expected Result:
+Photo: Photo of Romelu Lukaku
+BirthPlace: Antwerp, Belgium
+Weight: 207 lbs
+Height: 6' 2"
+Shots:65
+
+Actual Result:
+Photo: Photo of Romelu Lukaku (pass)
+BirthPlace: Antwerp, Belgium (pass)
+Weight: 207 lbs (pass)
+Height: 6' 2" (pass)
+Shots:65 (pass)
+
+TestCase #1 Result: Pass 
+
+
+
+Test #2:
+Title: Verify the Stats information for a EPL Player
+Test Steps
+1) Load the URL (http://www.thescore.com/)
+2) Navigate to Main Menu and click to Open it
+3) Navigate to Leaders Page, performing these actions (Trending->EPL Soccer->Leaders)
+4) Click on Leaders page to load the player's Goal page
+5) Click on any player e.g. R. Lukaku
+6) Click on Stats tab and verify that correct information under the RECENT and LEAGUE labels shows up e.g. Playdates, Scores, Others 
+
+Expected Result:
+Recent PlayDates: Feb 13 vs West Brom, Feb 6 @ Stoke City
+Recent SHO: 3, 4
+LEAGUE: EPL, FA Cup
+LEAGUE Team: Everton
+
+Actual Result:
+Recent PlayDates: Feb 13 vs West Brom, Feb 6 @ Stoke City (Pass)
+Recent SHO: 3, 4 (Pass)
+LEAGUE: EPL, FA Cup (Pass)
+LEAGUE Team: Everton (Pass)
+
+TestCase #2 Result: Pass 
+
+
+
+Test #3:
+Title: Verify News Articles related to a EPL Player
+Test Steps
+1) Load the URL (http://www.thescore.com/)
+2) Navigate to Main Menu and click to Open it
+3) Navigate to Leaders Page, performing these actions (Trending->EPL Soccer->Leaders)
+4) Click on Leaders page to load the player's Goal page
+5) Click on any player e.g. R. Lukaku
+6) Verify that the news articles related to R. Lukaku shows up
+7) Verify that the news article are arranged in chronicle date order
+8) Click on "Show More" in the page end
+
+
+Expected Result:
+New Article related to R. Lukaku shows up
+News article shows be arranged in chronicle date order 
+clicking on "Show More" shows more articles related to R. Lukaku
+
+Actual Result:
+News Article related to R. Lukaku shows up (Pass)
+News article shows be arranged in chronicle date order (pass)
+clicking on "Show More" shows more articles related to R. Lukaku (pass)
+
+TestCase #3 Result: Pass
+
+ 
+
+Test #4:
+Title: Verify the correctness of News Articles related to EPL Players
+Test Steps
+1) Load the URL (http://www.thescore.com/)
+2) Navigate to Main Menu and click to Open it
+3) Navigate to Leaders Page, performing these actions (Trending->EPL Soccer->Leaders)
+4) Click on Leaders page to load the player's Goal page
+5) Click on any player e.g. R. Lukaku
+6) Verify that the news articles related to R. Lukaku shows up
+7) Try clicking on any news article related to R. Lukaku and verify that the correct URL loads.
+
+Expected Result:
+Correct URL related to R. Lukaku loads with his information.
+The Title and picture of the news article on the thump icon should be same as what shows up in the URL.
+
+Actual Result:
+Correct URL related to R. Lukaku loads with his information (pass)
+The Title and picture of the news article on the thump icon should be same as what shows up in the URL (Pass)
+
+TestCase #4 Result: Pass 

@@ -20,7 +20,7 @@ public class SeleniumUtils {
 	private static Boolean result = true;
 	private static final String deliminator = "####";
 	
-	private static By lnkScoreLogo2 =By.cssSelector("i.icon-score-logo");
+	private static By lnkScoreLogo2 =By.cssSelector("div.thescore-logo");
 	public static int WAIT_TIME = 15;
 	
 	/**
@@ -28,11 +28,14 @@ public class SeleniumUtils {
 	 * @param element    Web element 
 	 * @return           True if the element is present 
 	 */
-	public static boolean isElementPresent(By element) {
-		try {
-			Assert.assertTrue(driver.findElement(element).isDisplayed());
-			result = true;
-		} catch (Exception e) {
+	public static boolean isElementPresent(WebDriver driver, By element) {
+		try {	
+		
+		if (driver.findElement(element).isDisplayed()) {
+			result= true;
+		} 
+		}
+		catch (Exception e) {
 			
 			result = false;
 			new ExceptionHandler(e, driver, "CustomMessage");
@@ -40,6 +43,9 @@ public class SeleniumUtils {
 
 		return result;
 	}
+	
+	
+	
 	
 	/**
 	 * To click an element on the screen
@@ -82,8 +88,8 @@ public class SeleniumUtils {
 			int j = 0;
 			try {
 				Thread.sleep(3000);
-				if (isElementPresent(lnkScoreLogo2)) {
-					while (isElementPresent(lnkScoreLogo2) && j < (WAIT_TIME)) {
+				if (isElementPresent(driver, lnkScoreLogo2)) {
+					while (isElementPresent(driver, lnkScoreLogo2) && j < (WAIT_TIME)) {
 						Thread.sleep(100);
 						j++;
 					}

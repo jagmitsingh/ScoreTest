@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="EPL Tests" allow-return-values="true">
+<suite name="EPL Player Information Test" allow-return-values="true">
              
   <parameter name="seleniumHost" value="localhost"/>
   <parameter name="seleniumPort" value="5555"/>
@@ -9,10 +9,10 @@
   
   
 
-<test name="EPL Tests" parallel="classes" thread-count="1">  
+<test name="EPL Player Information Test" parallel="classes" thread-count="1">  
     
    <classes>
-      <class name="com.soccer.league.EPL.testscripts.VerifyPlayersInformation">
+      <class name="com.soccer.league.EPL.testscripts.VerifyEPLPlayersInformation">
         <methods>
           <include name="verifyPlayers" invocation-numbers="0"/>
         </methods>
