@@ -29,9 +29,11 @@ public class SeleniumUtils {
 	 * @return           True if the element is present 
 	 */
 	public static boolean isElementPresent(WebDriver driver, By element) {
+		
 		try {	
 		
 		if (driver.findElement(element).isDisplayed()) {
+			
 			result= true;
 		} 
 		}
@@ -45,7 +47,7 @@ public class SeleniumUtils {
 	}
 	
 	
-	
+			
 	
 	/**
 	 * To click an element on the screen

@@ -1,4 +1,4 @@
-package com.soccer.league.EPL.PageObjectRepository.EPLLeague;
+package com.soccer.league.EPLApplication.PageObjectRepository.EPLLeague;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

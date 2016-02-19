@@ -12,7 +12,7 @@
 <test name="EPL Player Information Test" parallel="classes" thread-count="1">  
     
    <classes>
-      <class name="com.soccer.league.EPL.testscripts.VerifyEPLPlayersInformation">
+      <class name="com.soccer.league.EPLApplication.testscripts.VerifyEPLPlayersInformation">
         <methods>
           <include name="verifyPlayers" invocation-numbers="0"/>
         </methods>

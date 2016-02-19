@@ -1,4 +1,4 @@
-package com.soccer.league.EPL.PageObjectRepository.EPLLeague;
+package com.soccer.league.EPLApplication.PageObjectRepository.EPLLeague;
 
 import org.dom4j.Node;
 import org.openqa.selenium.By;

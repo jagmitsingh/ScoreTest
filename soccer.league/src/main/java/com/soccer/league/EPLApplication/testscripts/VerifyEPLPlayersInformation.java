@@ -1,12 +1,12 @@
-package com.soccer.league.EPL.testscripts;
+package com.soccer.league.EPLApplication.testscripts;
 
 import org.dom4j.Node;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.soccer.league.EPL.PageObjectRepository.EPLLeague.EPLSoccerPage;
-import com.soccer.league.EPL.PageObjectRepository.EPLLeague.EPLSoccerPlayersPage;
-import com.soccer.league.EPL.PageObjectRepository.sharedlib.ScoreHomePage;
+import com.soccer.league.EPLApplication.PageObjectRepository.EPLLeague.EPLSoccerPage;
+import com.soccer.league.EPLApplication.PageObjectRepository.EPLLeague.EPLSoccerPlayersPage;
+import com.soccer.league.EPLApplication.PageObjectRepository.sharedlib.ScoreHomePage;
 import com.soccer.league.automation.framework.driver.DriverStart;
 import com.soccer.league.automation.framework.frameworkUtils.XMLParser.DomParser;
 
